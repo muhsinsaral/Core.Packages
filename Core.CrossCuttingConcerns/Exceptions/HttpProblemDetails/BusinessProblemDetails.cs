@@ -15,6 +15,8 @@ public class BusinessProblemDetails:ProblemDetails
 		Title = "Rule Violation";
 		Detail = detail;
 		Status = StatusCodes.Status400BadRequest;
-		Type = "https:\\example.com/props/business";
+		Type = "https://example.com/probs/business";
 	}
 }
+
+
