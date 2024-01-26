@@ -14,7 +14,7 @@ public abstract class ExceptionHandler
         {
             BusinessException businessException => HandleException(businessException),
             ValidationException validationException => HandleException(validationException),
-            _ => HandleExceptionAsync(exception)
+            _ => HandleException(exception)
         };
 
     protected abstract Task HandleException(BusinessException businessException);
